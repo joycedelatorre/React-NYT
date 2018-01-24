@@ -1,0 +1,27 @@
+{
+  "name": "react-nyt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
+    "start": "concurrently \"nodemon server.js\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joycedelatorre/React-NYT.git"
+  },
+  "author": "Jdelt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joycedelatorre/React-NYT/issues"
+  },
+  "homepage": "https://github.com/joycedelatorre/React-NYT#readme",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11",
+    "react-router-dom": "^4.2.2"
+  }
+}
